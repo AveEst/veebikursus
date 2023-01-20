@@ -3,28 +3,37 @@ body {
 }
 
 .tahvel{
-    display:block;
+    display:none;
 }
 
+.arvuti{
+    display:none;
+}
 @media screen and  (min-width: 600px){
     body {
         background-color: red;
     }
     .mobiil{
+        display: none;
+    }
+    .tahvel{
         display: block;
     }
-}
-    
+
+    .arvuti{
+        display: none;
+    }
 
 @media screen and  (min-width: 900px){
     body {
         background-color: green;
+    }
 
     .tahvel{
         display: none;
     }
     
-}
+
 
 .arvuti{
     display: block;
