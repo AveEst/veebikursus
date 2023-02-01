@@ -1,4 +1,4 @@
-#konteiner-1{
+.konteiner-1{
     background-color: white;
     height: 50px;
     width: 500px;
@@ -9,10 +9,9 @@
     border: 1px solid black;
     border-radius: 1px;
 
-    
 }
 
-#konteiner-2 {
+.konteiner-2 {
     background-color: white;
     width: 500px;
     height: 150px;
@@ -21,11 +20,7 @@
     padding:15px;
     border: 1px solid black;
     border-radius: 1px;
-    display: flex;
-    
-    
-    
-    
+    display:flexbox;
 }
 
 body{
