@@ -1,0 +1,21 @@
+#esimene-konteiner{
+    
+}
+
+#teine-konteiner {
+    background-color: lightgrey;
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    padding:15px;
+    
+}
+
+body{
+    background-color:lightblue;
+}
+
+.sisestus{
+    margin-bottom: 15px;
+}
