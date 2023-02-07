@@ -16,11 +16,19 @@ html {
     background-size: cover;
 }
 
-.pais-logo {
-    top: 37px;
-    left: 72px;
-    width: 67px;
+.paiserida{
+    display:flex;
+    align-items: center;
+}
+
+.pais-logoala {
+
+    display: flex;
+}
+
+.pais-logo{
     height: 64px;
+    width: 66px;
 }
 
 .pais-nimi {
@@ -29,15 +37,8 @@ html {
     font-size: 33px;
     line-height: 33px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    top: 32px;
-    left: 157px;
-    width: 126px;
-    height: 75px;
-    letter-spacing: 0px;
-    opacity: 1;
-
+    width: 100px;
+    font-weight: bold;
 
 }
 
@@ -48,16 +49,7 @@ html {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2.67px;
-    display:inline-block;
-    height: 20px;
-    width: 751px;
-    top: 62px;
-    left: 609px;
-    text-align: left;
-    letter-spacing: 2.67px;
-    color: #000000;
-    opacity: 1;
-    padding-right: 80.5px;
+    margin-left: auto;
     
     
 }
@@ -67,38 +59,29 @@ html {
     display: flex;
     justify-content: flex-end;
 }
-
-
-ul {
-    margin-block-start: 1em;
-    margin-inline-end: 1 em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    
-}
-
-
-.pais-menyy li {
+.pais-menyy li{
     padding: 0px;
     margin-left: 10px;
     min-width: 100px;
-
 }
 
-.pais-menyy li a{
-    transition: all 0.3s ease 0s;
-    
-}
+.pais-menyy a{
+    color: #0B0B0B;
 
+}
 
 .pais-menyy li a:hover{
     color:red;
 }
 
 
+.pealkiri_pilt{
+    display: none;
+}
+
+.rida{
+    display: flex;
+}
 
 .pealkiri_pilt {
     display: none;
@@ -112,14 +95,13 @@ ul {
     width: 75.27px;
     height:66.04px ;
     margin-top: -40px;
-    margin-left: 571.82px;
-    margin-top: 292.76px;
+    margin-left: auto;
 }
 
 .liblikas2{
     width: 60px;
     height: 32px;
-    margin-left: -10px;
+    margin-left: -60px;
 }
 .pealkiri-kastid h2{
     font-size: 2.83rem;
@@ -131,6 +113,40 @@ ul {
     font-size: 3.7rem;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.pealispilt{
+    overflow: hidden;
+}
+
+.pealisilet.makaja{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -400px;
+}
+
+.pealispilt.vari{
+    width: 1087px;
+    height: 87px;
+    margin-top: -37px;
+    margin-left: -178ex;
+}
+
+.nupp-paises{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2.25px;
+    font-size: 12px;
+    line-height: 46px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
 }
 
 @media sceen and (min-width:768px){

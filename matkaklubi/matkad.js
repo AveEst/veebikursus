@@ -8,13 +8,13 @@ let matkad=[
     {
         nimi: "Rattamatk Jõgevamaal",
         kirjeldus:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quisquam, laboriosam deleniti eligendi ullam inventore, ducimus quae quia, harum ipsum praesentium assumenda illum deserunt modi. Commodi nostrum quod unde voluptas",
-        pildiAadress: "./liblikas1.png"
+        pildiAadress: "./liblikas2.png"
     },
 
     {
         nimi: "Süstamatk Kõrvemaal",
         kirjeldus:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quisquam, laboriosam deleniti eligendi ullam inventore, ducimus quae quia, harum ipsum praesentium assumenda illum deserunt modi. Commodi nostrum quod unde voluptas",
-        pildiAadress: "./liblikas1.png"
+        pildiAadress: "./matkaja.png"
     },
 
 ]
@@ -28,13 +28,15 @@ function koostaMatkaHTML(matk){
         <p>
         ${matk.kirjeldus}
         </p>
-
-    `
+    </div>
+</div>
+`
 }
 
-let matkadeHTML=``
+let matkadeHTML=' '
 
 for(let matk of matkad){
     matkadeHTML+=koostaMatkaHTML(matk)
-    document.querySelector(".matkad")
 }
+
+document.querySelector("matkad").innerHTML=matkadeHTML
