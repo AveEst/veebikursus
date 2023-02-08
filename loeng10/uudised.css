@@ -1,0 +1,157 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paiskonteiner {
+    width: 100%;
+    height: 778px;
+    background-image: url('./Hills.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.paiserida {
+    display: flex;
+    align-items: center;
+}
+
+.pais-logoala {
+    display: flex;
+}
+
+.pais-logo {
+    height: 64px;
+    width: 66px;
+}
+
+.pais-nimi {
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    font-size: 33px;
+    line-height: 33px;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+.pais-menyy {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 1.19rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2.67px;
+    margin-left: auto
+}
+
+.pais-menyy ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pais-menyy li {
+    padding: 0px;
+    margin-left: 10px;
+    min-width: 100px;
+}
+
+.pais-menyy a {
+    color: #0B0B0B;
+}
+
+.pealkiri_pilt {
+    display: none;
+}
+
+.rida {
+    display: flex;
+}
+
+.liblikas1 {
+    width: 75.27px;
+    height: 66.04px;
+    margin-top: -40px;
+    margin-left: auto;
+}
+
+.liblikas2 {
+    width: 60px;
+    height: 32px;
+    margin-left: -60px;
+}
+
+.pealkiri-kastid {
+    padding-top: 40px;
+}
+
+.pealkiri-kastid h2 {
+    font-size: 2.83rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pealkiri-kastid h1 {
+    font-size: 4.31rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pealispilt {
+    overflow: hidden;
+}
+
+.pealispilt .matkaja {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+}
+
+.pealispilt .vari {
+    width: 1087px;
+    height: 87px;
+    margin-top: -37px;
+    margin-left: -178px;
+}
+
+.nupp-paises {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2.25px;
+    font-size: 12px;
+    line-height: 46px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-radius: 0px;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .pealkiri_pilt {
+        display: block;
+    }
+
+    .pealkiri-kastid {
+        padding-top: 230px;
+    }
+
+    .uudised {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .uudised .card {
+        width: 47%;
+    }
+}
