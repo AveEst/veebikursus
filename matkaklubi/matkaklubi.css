@@ -1,9 +1,11 @@
 html {
     font-size: 14px;
+    width: 1440px;
 }
 
 .body{
     font-family: 'Montserrat', sans-serif;
+    width: 1440px;
 
 }
 
@@ -14,11 +16,13 @@ html {
     background-image: url('./Hills.png');
     background-position: center;
     background-size: cover;
+    width: 1440px;
 }
 
 .paiserida{
     display:flex;
     align-items: center;
+    width: 1440px;
 }
 
 .pais-logoala {
@@ -28,7 +32,9 @@ html {
 
 .pais-logo{
     height: 64px;
-    width: 66px;
+    width: 66p.72x;
+    margin-top:37px;
+    margin-left:72px;
 }
 
 .pais-nimi {
@@ -37,8 +43,11 @@ html {
     font-size: 33px;
     line-height: 33px;
     text-transform: uppercase;
-    width: 100px;
+    width: 126px;
     font-weight: bold;
+    margin-left:18.51px;
+    margin-top: 31.94px;
+    height: 75px;
 
 }
 
@@ -49,7 +58,12 @@ html {
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2.67px;
-    margin-left: auto;
+    height: 20px;
+    margin-top: 62.22px;
+    margin-right: 80.5px;
+    margin-left: 608.5px;
+    text-align: left;
+    opacity: 1;
     
     
 }
@@ -119,19 +133,21 @@ html {
     overflow: hidden;
 }
 
-.pealisilet.makaja{
-    width: 750px;
-    height: 750px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: -400px;
+.matkaja{
+border-radius: 60%;
+width: 680.26px;
+margin-left: 759.74px;
+margin-top:778px;
+opacity: 100%;
+height: 914.06px;
+
 }
 
-.pealispilt.vari{
-    width: 1087px;
+.vari{
+    width: 1091px;
     height: 87px;
-    margin-top: -37px;
-    margin-left: -178ex;
+    margin-top: 1028px;
+    margin-left: 759.74px;
 }
 
 .nupp-paises{
@@ -156,4 +172,90 @@ html {
     .pealkiri-kastid{
     padding-top: 230px;
     }
+}
+
+.uudiste-section{
+    width: 100%;
+}
+
+.section-content-uudised{
+    width: 85%;
+    margin:20px auto;
+}
+
+.pealkiri{
+    width: 60%;
+    text-align: center;
+    margin:auto;
+}
+
+.pealkiri h2{
+    font-size: 40px;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pealkiri p{
+    font-size: 18px;
+    color:#6a6a6a;
+    margin: top 20px;
+
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin: 25px auto;
+}
+
+.card{
+    width: 100%;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height:;
+    position: absolute;
+}
+
+.sisu{
+    padding: 15px 20px;
+
+}
+
+.sisu h4{
+    font-size: 24px;
+    color:#4a4a4a;
+}
+
+.sisu p{
+    font-size: 16px;
+    margin:10px 0px;
+    color:#6a6a6a;
+}
+
+.card a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: lightblue;
+    padding: 8px 15px;
+    margin-left: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.postituse-kuupaev p{
+    font-weight: 600;
+    position: absolute;
+    top:0;
+    left:0;
+    display: inline-block;
+    background-color: lightblue;
+    padding: 6px 15px;
+
 }
