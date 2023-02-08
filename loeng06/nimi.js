@@ -1,5 +1,5 @@
 let nimi
 nimi=prompt("Sisesta nimi")
-let tervitus=" Tere " + nimi
-alert(tervitus)
+let teade=" Tere " + nimi
+alert(teade)
 document.getElementById("teade").innerHTML=teade
