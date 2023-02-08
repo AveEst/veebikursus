@@ -217,10 +217,22 @@ height: 914.06px;
     position: relative;
 }
 
-.img{
-    width: 100%;
-    height:;
-    position: absolute;
+.siredad-saared-1{
+    width: 250px;
+    height: 250px;
+    padding: 15px 20px;
+}
+
+.siredad-saared-2{
+    width: 250px;
+    height: 250px;
+    padding: 15px 20px;
+}
+
+.siredad-saared-3{
+    width: 250px;
+    height: 250px;
+    padding: 15px 20px;
 }
 
 .sisu{
@@ -237,6 +249,7 @@ height: 914.06px;
     font-size: 16px;
     margin:10px 0px;
     color:#6a6a6a;
+    text-align: justify;
 }
 
 .card a{
@@ -257,5 +270,7 @@ height: 914.06px;
     display: inline-block;
     background-color: lightblue;
     padding: 6px 15px;
+    color: black;
+    margin-left: 20px;
 
 }
