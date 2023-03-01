@@ -1,0 +1,299 @@
+*{
+padding:0;
+margin:0;
+
+font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+.body{
+    
+    line-height: 1.6;
+    font-size: 1.05rem;
+    font-weight: 300;
+
+}
+
+.paiskonteiner {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 778px;
+    background-image: url('../Hills.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.paiserida{
+    display:flex;
+    align-items: center;
+}
+
+.pais-logoala {
+    display: flex;
+}
+
+.pais-logo{
+    margin-top: 37px;
+    margin-left: 72px;
+    width: 67px;
+    height: 64px;
+}
+
+.pais-nimi {
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    font-size: 33px;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left:18.51px;
+    margin-top: 32px;
+    width: 126px;
+    height: 75px;
+
+}
+
+.pais-menyy {
+    display: flex;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 1.19rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2.67px;
+    top: 62px;
+    margin-left:auto;
+    height: 20px;
+    opacity: 1;
+    color: #000000;
+
+    
+}
+
+.pais-menyy ul{
+    list-style-type: none ;
+    display: flex;
+    justify-content: flex-end;
+    
+
+    
+}
+.pais-menyy li{
+    padding: 0px;
+    margin-left: 10px;
+    min-width: 100px;
+    
+}
+
+.pais-menyy a{
+    color: #0B0B0B;
+    text-decoration: none;
+    float:right;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+.pais-menyy li a:hover{
+    color:red;
+}
+
+#animation{
+    background-image:url('./client/Capture.PNG');
+    width: 100%;
+    height: 95px;
+    animation: walk-east 2.0s steps(8) infinite;
+}
+@keyframes walk-east {
+	from { background-position: 0px; }
+	to { background-position: -960px; }
+}
+
+h3{
+    margin:0;
+    padding:0;
+    position:relative;
+    transition: translateY(-50%);
+    color:black;
+    text-align: center;
+    font-size: 2.5em;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+
+}
+
+
+h3 span{
+    opacity:0;
+    display: inline-block;
+    animation:animate 1s linear forwards;
+    
+}
+
+@keyframes animate
+{
+    0%
+    {
+    opacity:0;
+    transform: rotateY(90deg);
+    filter:blur(10px);
+}
+100%
+{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter:blur(0px);
+}
+}
+
+
+h3 span:nth-child(1) /*M*/
+{
+    animation-delay: 1s;
+
+}
+h3 span:nth-child(2) /*A*/
+{
+    animation-delay: 2s;
+    
+}
+
+h3 span:nth-child(3) /*T*/
+{
+    animation-delay: 2.5s;
+    
+}
+
+h3 span:nth-child(4) /*K*/
+{
+    animation-delay: 3s;
+    
+}
+
+h3 span:nth-child(5) /*A*/
+{
+    animation-delay: 3.5s;
+    
+}
+
+h3 span:nth-child(6) /*D*/
+{
+    animation-delay: 3.75s;
+    
+}
+
+h3 span:nth-child(7) /*E*/
+{
+    animation-delay: 4s;
+    
+}
+
+h3 span:nth-child(8) /*-*/
+{
+    animation-delay: 4.5s;
+    
+}
+
+h3 span:nth-child(9) /*L*/
+{
+    animation-delay: 5s;
+    
+}
+
+h3 span:nth-child(10) /*O*/
+{
+    animation-delay: 5.5s;
+    
+}
+
+h3 span:nth-child(11) /*E*/
+{
+    animation-delay: 5.75s;
+    
+}
+
+h3 span:nth-child(12) /*T*/
+{
+    animation-delay: 6s;
+    
+}
+
+h3 span:nth-child(13) /*E*/
+{
+    animation-delay: 6.5s;
+    
+}
+
+h3 span:nth-child(14) /*L*/
+{
+    animation-delay: 6.75s;
+    
+}
+
+h3 span:nth-child(15) /*U*/
+{
+    animation-delay: 7s;
+    
+}
+
+.sisu-container{
+    margin-top:20px;
+    padding: 10px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.app{
+    
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+    
+
+}
+
+.matk{
+    color:blue;
+    width:250px;
+    border: 1px solid yellow;
+
+}
+
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax( 350px auto));
+    grid-gap: 50px;
+    margin:50px auto;
+    max-width: 1240px;
+}
+
+.card{
+    border-radius: 25px;
+}
+
+.products{
+    padding:10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.0.2);
+}
+
+.products img{
+    width: 100%;
+    display: block;
+
+}
+
+.product.title{
+    text-align: center;
+    padding-top: 30px;
+}
+

@@ -1,40 +1,45 @@
+
 html {
     font-size: 14px;
-    width: 1440px;
 }
 
 .body{
     font-family: 'Montserrat', sans-serif;
-    width: 1440px;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    font-weight: 300;
 
 }
 
+.container{
+    margin:0;
+    padding:0;
+}
 
 .paiskonteiner {
+    margin:0;
+    padding:0;
     width: 100%;
     height: 778px;
     background-image: url('./Hills.png');
     background-position: center;
     background-size: cover;
-    width: 1440px;
 }
 
 .paiserida{
     display:flex;
     align-items: center;
-    width: 1440px;
 }
 
 .pais-logoala {
-
     display: flex;
 }
 
 .pais-logo{
+    margin-top: 37px;
+    margin-left: 72px;
+    width: 67px;
     height: 64px;
-    width: 66p.72x;
-    margin-top:37px;
-    margin-left:72px;
 }
 
 .pais-nimi {
@@ -43,28 +48,28 @@ html {
     font-size: 33px;
     line-height: 33px;
     text-transform: uppercase;
-    width: 126px;
     font-weight: bold;
     margin-left:18.51px;
-    margin-top: 31.94px;
+    margin-top: 32px;
+    width: 126px;
     height: 75px;
 
 }
 
 .pais-menyy {
     display: flex;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
 	font-size: 1.19rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2.67px;
+    top: 62px;
+    margin-left:auto;
     height: 20px;
-    margin-top: 62.22px;
-    margin-right: 80.5px;
-    margin-left: 608.5px;
-    text-align: left;
     opacity: 1;
-    
+    color: #000000;
+
     
 }
 
@@ -72,15 +77,26 @@ html {
     list-style-type: none ;
     display: flex;
     justify-content: flex-end;
+    
+
+    
 }
 .pais-menyy li{
     padding: 0px;
     margin-left: 10px;
     min-width: 100px;
+    
 }
 
 .pais-menyy a{
     color: #0B0B0B;
+    text-decoration: none;
+    float:right;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor:pointer;
 
 }
 
@@ -89,33 +105,36 @@ html {
 }
 
 
+
 .pealkiri_pilt{
     display: none;
 }
 
 .rida{
     display: flex;
+    width: 575px;
+    margin-left: 70px;
 }
 
 .pealkiri_pilt {
     display: none;
 }
 
-.rida{
-    display: flex;
-}
 
 .liblikas1{
     width: 75.27px;
     height:66.04px ;
-    margin-top: -40px;
-    margin-left: auto;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .liblikas2{
     width: 60px;
     height: 32px;
     margin-left: -60px;
+}
+.pealkiri-kastid{
+    padding-top: 40px;
 }
 .pealkiri-kastid h2{
     font-size: 2.83rem;
@@ -127,27 +146,62 @@ html {
     font-size: 3.7rem;
     font-weight: 800;
     text-transform: uppercase;
+    margin-left:-5px;
+    
 }
+
+.liitumistekst{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: bold ;
+    width: 575px;
+    margin-top:14px;
+    height: 60px;
+    margin-left:-14px;
+
+}
+
+.vaata-matku{
+    background-color: black;
+    color:white;
+    text-transform: uppercase;
+    padding:10px;
+    font-weight: bold;
+    margin-left:-130px;
+
+}
+
+ .vaata-matku a:hover{
+    color:red;
+}
+
+
 
 .pealispilt{
     overflow: hidden;
 }
 
 .matkaja{
-border-radius: 60%;
-width: 680.26px;
-margin-left: 759.74px;
-margin-top:778px;
-opacity: 100%;
-height: 914.06px;
-
+    border-radius: 50%;
+    width: 914px;
+    height: 914px;
+    opacity: 1;
+    object-fit: cover;
+    margin-top: -400px;
+    margin-right:-1600px;
 }
 
 .vari{
     width: 1091px;
     height: 87px;
-    margin-top: 1028px;
-    margin-left: 759.74px;
+    margin-top:10px;
+    margin-right:-10px;
+    margin-left: 100px;
+    
+
 }
 
 .nupp-paises{
@@ -163,6 +217,11 @@ height: 914.06px;
     color: white;
     background-color: black;
     margin-top: 20px;
+}
+
+.vaata-matku:hover{
+    background-color: red;
+   
 }
 
 @media sceen and (min-width:768px){
@@ -186,14 +245,22 @@ height: 914.06px;
 .pealkiri{
     width: 60%;
     text-align: center;
-    margin:auto;
+    margin:73.65px;
+    
+
 }
 
 .pealkiri h2{
-    font-size: 40px;
     color:black;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top:50px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 39.57px;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: left;
+
 }
 
 .pealkiri p{
@@ -201,6 +268,10 @@ height: 914.06px;
     color:#6a6a6a;
     margin: top 20px;
 
+}
+
+.rida{
+    margin-left: -15px;
 }
 
 
@@ -223,6 +294,7 @@ height: 914.06px;
     padding: 15px 20px;
     margin-left: auto;
     margin-right:auto;
+    display: block;
 
     
 }
@@ -233,6 +305,7 @@ height: 914.06px;
     padding: 15px 20px;
     margin-left: auto;
     margin-right:auto;
+    display: block;
 
     
 }
@@ -243,6 +316,7 @@ height: 914.06px;
     padding: 15px 20px;
     margin-left: auto;
     margin-right:auto;
+    display: block;
     
 }
 .sisu{
@@ -283,4 +357,422 @@ height: 914.06px;
     color: black;
     margin-left: 20px;
 
+}
+
+#animation{
+    background-image:url('./client/Capture.PNG');
+    width: 100%;
+    height: 95px;
+    animation: walk-east 2.0s steps(8) infinite;
+}
+@keyframes walk-east {
+	from { background-position: 0px; }
+	to { background-position: -960px; }
+}
+
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+
+}
+
+h3{
+    margin:0;
+    padding:0;
+    position:relative;
+    transition: translateY(-50%);
+    color:black;
+    text-align: center;
+    font-size: 2.5em;
+    font-family:'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+
+}
+
+
+h3 span{
+    opacity:0;
+    display: inline-block;
+    animation:animate 1s linear forwards;
+    
+}
+
+@keyframes animate
+{
+    0%
+    {
+    opacity:0;
+    transform: rotateY(90deg);
+    filter:blur(10px);
+}
+100%
+{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter:blur(0px);
+}
+}
+
+
+h3 span:nth-child(1) /*M*/
+{
+    animation-delay: 1s;
+
+}
+h3 span:nth-child(2) /*A*/
+{
+    animation-delay: 2s;
+    
+}
+
+h3 span:nth-child(3) /*T*/
+{
+    animation-delay: 2.5s;
+    
+}
+
+h3 span:nth-child(4) /*K*/
+{
+    animation-delay: 3s;
+    
+}
+
+h3 span:nth-child(5) /*A*/
+{
+    animation-delay: 3.5s;
+    
+}
+
+h3 span:nth-child(6) /*D*/
+{
+    animation-delay: 3.75s;
+    
+}
+
+h3 span:nth-child(7) /*E*/
+{
+    animation-delay: 4s;
+    
+}
+
+h3 span:nth-child(8) /*-*/
+{
+    animation-delay: 4.5s;
+    
+}
+
+h3 span:nth-child(9) /*L*/
+{
+    animation-delay: 5s;
+    
+}
+
+h3 span:nth-child(10) /*O*/
+{
+    animation-delay: 5.5s;
+    
+}
+
+h3 span:nth-child(11) /*E*/
+{
+    animation-delay: 5.75s;
+    
+}
+
+h3 span:nth-child(12) /*T*/
+{
+    animation-delay: 6s;
+    
+}
+
+h3 span:nth-child(13) /*E*/
+{
+    animation-delay: 6.5s;
+    
+}
+
+h3 span:nth-child(14) /*L*/
+{
+    animation-delay: 6.75s;
+    
+}
+
+h3 span:nth-child(15) /*U*/
+{
+    animation-delay: 7s;
+    
+}
+
+:root{
+    --tenne-tawny:#d65108;
+    --tenne-tawny-dark:#b54507;
+}
+
+.btn{
+    font-family:inherit;
+    cursor:pointer;
+    outline:0;
+    font-size:1.05rem;
+
+}
+
+.text{
+    opacity:0.8;
+}
+
+.title{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.meal-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:2rem;
+    background: #fff;
+    text-align: center;
+
+}
+
+.meal-search{
+    margin:2rem 0;
+
+}
+.meal-search cite{
+    font-size: 1rem;
+
+}
+
+.meal-search-box{
+    margin:1.2rem 0;
+    display:flex;
+    align-items: stretch;
+
+}
+
+.search-control,
+.search-btn{
+    width: 100%;
+}
+
+.search-control{
+    padding:0 1rem;
+    font-family: inherit;
+    outline:0;
+    border:1px solid var(--tenne-tawny);
+    color:var(--tenne-tawny);
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+}
+
+.search-control::placeholder{
+    color:var(--tenne-tawny);
+}
+
+.search-btn{
+    width:55px;
+    height: 55px;
+    font-size: 1.8rem;
+    background: var(--tenne-tawny);
+    color:#fff;
+    border:none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: all 0.4s linear;
+}
+
+.search-btn:hover{
+    background: var(--tenne-tawny--dark);
+    
+}
+
+.meal-result{
+    margin-top: 4rem;
+}
+
+#meal{
+    margin: 2.4rem 0;
+
+}
+
+.meal-item{
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0,0,0,.79);
+    margin:2rem 0;
+
+}
+
+.meal-img img{
+    width: 100%;
+    display: block;
+}
+
+.meal-name{
+    padding:1.5rem 0.5rem;
+
+}
+
+.meal-name h6{
+    font-size: 1.4rem;
+}
+
+.recipe-btn{
+    text-decoration: none;
+    color:#fff;
+    background: var(--tenne-tawny);
+    font-weight: 500;
+    font-size:1.1rem;
+    padding:0.75rem 0;
+    display: block;
+    width:175px;
+    margin:1rem auto;
+    border-radius: 2rem;
+    transition: all 0.4s liner;
+
+}
+
+.recipe-btn:hover{
+    background: var(--tenne-tawny--dark);
+
+}
+/*meal details*/
+.meal-details{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transition: translate(-50%, -50%);
+    color:#fff;
+    background: var(--tenne-tawny);
+    border-radius: 1rem;
+    width: 90%;
+    height: 90%;
+    overflow-y:scroll;
+    display:none ;
+    padding:2rem 0;
+}
+
+.meal-details::-webkit-scrollbar{
+    width: 10px;
+
+}
+.meal-details::-webkit-scrollbar-thumb{
+    background: #f0f0f0;
+    border-radius: 2rem;
+}
+.showRecipe{
+    display: block;
+}
+.meal-details-content{
+    margin:2rem;
+}
+
+.meal-details-content p:not(.recipe-category){
+    padding:1rem 0;
+
+}
+
+.recipe-close-btn{
+    position: absolute;
+    right:2rem;
+    top:2rem;
+    font-size: 1.8rem;
+    background: #fff;
+    border:none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    }
+
+.recipe-title{
+        letter-spacing: 1px;
+        padding-bottom: 1rem;
+    }
+.recipe-category{
+    background: #fff;
+    font-weight: 600;
+    color:var(--tenne-tawny);
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+
+}
+
+.recipe-category{
+    background: #fff;
+    font-weight: 600;
+    color:var(--tenne-tawny);
+    display: inline-block;
+    padding:0.2rem 0.5rem;
+    border-radius: 0.3rem;
+
+}
+
+.recipe-instructions{
+    padding:1rem 0;
+
+}
+
+.recipe-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:0 auto;
+    display:block;
+
+}
+
+.recipe-link{
+    margin:1.4rem 0;
+}
+
+.recipe-link a{
+    color:#fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.4s linear;
+}
+
+.recipe-link a:hover{
+    opacity: 0.8;
+
+}
+@media screen and(min-width:600px){
+.meal-search-box{
+    width:540px;
+    margin-left:auto;
+    margin-right:auto;
+}}
+
+@media screen and(min-width: 768px){
+    #meal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:2rem;
+    }
+    .meal-item{
+        margin:0;
+    }
+
+    .meal-details{
+        width:700px;
+
+    }
+
+}
+@media screen and(min-width:992px){
+    #meal{
+        grid-template-columns:3 1fr ;
+    }
 }
