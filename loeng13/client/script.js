@@ -26,7 +26,7 @@ function renderTodos() {
             onclick="toggleTodo(${todoItems[i].id})"
             ${checkedString}
           />
-          <a onclick="deleteTodo(${todoItems[i].id})">🚮</a>
+          <a onclick="deleteTodo(${todoItems[i].id})">🗑</a>
         </div>
       </li>
     `
